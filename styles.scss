@@ -1,0 +1,39 @@
+// Import Bootstrap SCSS
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+/* Navbar styling */
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* White color for the toggler icon */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White color for nav links */
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+    background-color: #343a40; /* Dark background color for dropdown */
+}
+
+.dropdown-item {
+    color: #ffffff !important; /* White color for dropdown items */
+}
+
+.dropdown-item:hover {
+    background-color: #495057; /* Darker background on hover */
+    color: #ffffff !important;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40; /* Dark background color */
+}
+// Add more styles as needed
